@@ -8,7 +8,7 @@ We recommended the following dependencies.
 * [PyTorch](http://pytorch.org/) 1.8.0
 * [NumPy](http://www.numpy.org/) (>1.19.5)
 * [TensorBoard](https://github.com/TeamHG-Memex/tensorboard_logger)
-The specific required environment can be found [here](https://drive.google.com/file/d/1jLhd1GU6W3YrKeADM5g4qQxJoYt1lXx5/view?usp=sharing)
+* The specific required environment can be found [here](https://drive.google.com/file/d/1jLhd1GU6W3YrKeADM5g4qQxJoYt1lXx5/view?usp=sharing)
 
 ## Pretrained model
 If you don't want to train from scratch, you can download the pretrained NAAF model from [here](https://drive.google.com/file/d/1e3I5Uk2UGHPql4KLIrQW5L7ek3ih34rh/view?usp=sharing)(for Flickr30K model) and [here](https://drive.google.com/file/d/1NpZZYXmmejgd_nam79IdETSYIuRjo-7p/view?usp=sharing)(for Flickr30K model without using GloVe). The performance of this pretrained single model is as follows, in which some Recall@1 values are even better than results produced by our paper:
@@ -27,7 +27,7 @@ Download the dataset files. We use the image feature created by SCAN, downloaded
 ## Training
 
 ```bash
-python train.py --data_path "$DATA_PATH" --data_name f30k_precomp --vocab_path "$VOCAB_PATH" --logger_name runs/log --model_name "$MODEL_PATH" --bi_gru
+python train.py --data_path "$DATA_PATH" --data_name f30k_precomp --vocab_path "$VOCAB_PATH" --logger_name runs/log --logg_path runs/runX/logs --model_name "$MODEL_PATH" 
 ```
 
 Arguments used to train Flickr30K models and MSCOCO models are similar with those of SCAN:
