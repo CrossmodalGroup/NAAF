@@ -1,6 +1,7 @@
 ## Introduction
 This is [Negative-Aware Attention Framework for Image-Text Matching](https://www.researchgate.net/publication/360642414_Negative-Aware_Attention_Framework_for_Image-Text_Matching), source code of NAAF ([project page](https://github.com/CrossmodalGroup/NAAF)). The paper is accepted by CVPR2022. It is built on top of the [SCAN](https://github.com/kuanghuei/SCAN) in PyTorch.
 
+![image](https://github.com/CrossmodalGroup/NAAF/blob/main/Framework%20Overview.jpg)
 ## Requirements and Installation
 We recommended the following dependencies.
 
