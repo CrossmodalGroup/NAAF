@@ -54,7 +54,7 @@ def main():
                         help='Gradient clipping threshold.')
     parser.add_argument('--num_layers', default=1, type=int,
                         help='Number of GRU layers.')
-    parser.add_argument('--learning_rate', default=.00005, type=float,
+    parser.add_argument('--learning_rate', default=.0005, type=float,
                         help='Initial learning rate.')
     parser.add_argument('--lr_update', default=20, type=int,
                         help='Number of epochs to update the learning rate.')
