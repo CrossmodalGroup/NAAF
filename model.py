@@ -153,7 +153,6 @@ class EncoderText(nn.Module):
 
         # word embedding
         self.embed = nn.Embedding(vocab_size, word_dim)
-        # self.dropout = nn.Dropout(0.4)
 
         # caption embedding
         self.rnn = nn.GRU(word_dim, embed_size, num_layers,
@@ -169,7 +168,6 @@ class EncoderText(nn.Module):
         """
         # Embed word ids to vectors
         x = self.embed(x)
-        # x = self.dropout(x)
         packed = pack_padded_sequence(x, lengths, batch_first=True)
 
 
