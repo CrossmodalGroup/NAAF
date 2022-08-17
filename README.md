@@ -22,6 +22,7 @@ Text to image: 60.0 83.9 89.9 1.0 7.4
 ```
 ## Performance
 We provide our NAAF model performance (single or ensemble) under different text backbones, where readers can choose the appropriate performance for a fair comparison:
+
 ![image](https://github.com/CrossmodalGroup/NAAF/blob/main/Performance-Bi-GRU.png)
 ![image](https://github.com/CrossmodalGroup/NAAF/blob/main/Performance-GloVe.png)
 
