@@ -22,11 +22,6 @@ Image to text: 80.6 95.4 98.0 1.0 2.0
 Average t2i Recall: 78.0
 Text to image: 60.0 83.9 89.9 1.0 7.4
 ```
-## Performance
-We provide our NAAF model performance (single or ensemble) under different text backbones, where readers can choose the appropriate performance for a fair comparison:
-
-![image](https://github.com/CrossmodalGroup/NAAF/blob/main/Performance-Bi-GRU.png)
-![image](https://github.com/CrossmodalGroup/NAAF/blob/main/Performance-GloVe.png)
 
 ## Download data
 Download the dataset files. We use the image feature created by SCAN. The vocabulary required by GloVe has been placed in the 'vocab' folder of the project (for Flickr30K and MSCOCO).
