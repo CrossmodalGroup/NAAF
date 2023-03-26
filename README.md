@@ -28,6 +28,12 @@ Download the dataset files. We use the image feature created by SCAN. The vocabu
 
 You can download the dataset through Baidu Cloud. Download links are [Flickr30K]( https://pan.baidu.com/s/1Fr_bviuWLcrJ9MiiRn_H2Q) and [MSCOCO]( https://pan.baidu.com/s/1vp3gtQhT7GO0PQACBSnOrQ), the extraction code is: USTC. 
 
+## Performance
+We provide our NAAF model performance (single or ensemble) under different text backbones, where readers can choose the appropriate performance for a fair comparison:
+
+![image](https://github.com/CrossmodalGroup/NAAF/blob/main/Performance-Bi-GRU.png)
+![image](https://github.com/CrossmodalGroup/NAAF/blob/main/Performance-GloVe.png)
+
 ## Training
 
 ```bash
