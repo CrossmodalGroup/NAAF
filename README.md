@@ -1,5 +1,5 @@
 ## Introduction
-This is [Negative-Aware Attention Framework for Image-Text Matching](https://www.researchgate.net/publication/360642414_Negative-Aware_Attention_Framework_for_Image-Text_Matching), source code of NAAF. The paper is accepted by CVPR2022.
+This is [Negative-Aware Attention Framework for Image-Text Matching](https://www.researchgate.net/publication/360642414_Negative-Aware_Attention_Framework_for_Image-Text_Matching), source code of NAAF. The paper is accepted by CVPR2022. [Download Paper](https://www.researchgate.net/publication/360642414_Negative-Aware_Attention_Framework_for_Image-Text_Matching).
 
 Its Chinese blog can be found [here](https://www.cnblogs.com/lemonzhang/p/16456403.html). It is built on top of the [SCAN](https://github.com/kuanghuei/SCAN) in PyTorch. 
 
