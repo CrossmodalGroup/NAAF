@@ -3,6 +3,8 @@ This is [Negative-Aware Attention Framework for Image-Text Matching](https://www
 
 Its Chinese blog can be found [here](https://www.cnblogs.com/lemonzhang/p/16456403.html). It is built on top of the [SCAN](https://github.com/kuanghuei/SCAN) in PyTorch. 
 
+Our series of work based on optimal discriminative learning is published in IEEE TMM, which is 'Unified Adaptive Relevance Distinguishable Attention Network for Image-Text Matching'. The paper can be downloaded [here](https://ieeexplore.ieee.org/document/9676463). 
+
 ![image](https://github.com/CrossmodalGroup/NAAF/blob/main/Framework%20Overview.jpg)
 ## Requirements and Installation
 We recommended the following dependencies.
@@ -75,7 +77,7 @@ python test_stack.py
 
 ## Reference
 
-If you found this code useful, please cite the following paper:
+If you found this code useful, please cite the following papers:
 ```
 @inproceedings{zhang2022negative,
   title={Negative-Aware Attention Framework for Image-Text Matching},
@@ -85,4 +87,14 @@ If you found this code useful, please cite the following paper:
   year={2022}
 }
 ```
-
+```
+@article{zhang2022unified,
+  title={Unified adaptive relevance distinguishable attention network for image-text matching},
+  author={Zhang, Kun and Mao, Zhendong and Liu, An-An and Zhang, Yongdong},
+  journal={IEEE Transactions on Multimedia},
+  volume={25},
+  pages={1320--1332},
+  year={2022},
+  publisher={IEEE}
+}
+```
